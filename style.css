@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    margin: 48px 0 144px 670px;
+}
+.links{
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-decoration: none;
+    margin-right: 23px;
+}
+
+.btn-sign{
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn-sign:hover{
+    color: #6FBF44;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+section{
+    display: inline-block;
+    margin-left: 80px;
+}
+
+img{
+    width: 595px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 300px;
+}
+
+#title{
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    width: 582px;
+}
+
+.paragraph{
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px; 
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-more{
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        display: none;
+    }
+
+    body{
+        position: absolute;
+        top: 100px;
+    }
+    #title {
+        width: 278px;
+        color: #161A49;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        position: static;
+        margin-left: -20px;
+    }
+
+    .paragraph{
+        width: 304px;
+        color: #4B505A;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        position: static;
+        margin: 20px 0 20px -23px;
+    }
+
+    .link-more{
+        color: #6FBF44;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin: 0 74px;
+    }
+
+    img{
+        position: absolute;
+        top: 333px;
+        left: -260px;
+        width: 322px;
+        height: 307px;
+    }
+}
